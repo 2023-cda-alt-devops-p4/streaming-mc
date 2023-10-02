@@ -22,3 +22,16 @@ Last name, first name, email, password, role, and a list of favorite films
 ### Requests
 
 
+### Deliverables
+
+*A GitHub repository containing:*
+
+⬜ Docker environment  
+⬜ Data dictionary  
+✅ Conceptual Data Model   
+⬜ Physical Data Model   
+⬜ Logical Data Model   
+⬜ A file for generating the database    
+⬜ Query set in the README.md  
+
+
