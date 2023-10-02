@@ -66,3 +66,11 @@ VALUES ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarant
 -- Eastwood
 INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
 VALUES ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992');
+
+
+-- utilisateur
+INSERT INTO Users (name_user, first_name_user, email_user, password_user, role_user, favorite_film)
+VALUES ('Smith', 'John', 'john.smith@email.com', 'motdepasse1', 'Utilisateur', 'Parle avec elle');
+
+
+
