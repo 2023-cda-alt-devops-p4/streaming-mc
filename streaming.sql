@@ -64,7 +64,16 @@ VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling'
 
 -- utilisateur
 INSERT INTO Users (name_user, first_name_user, email_user, password_user, role_user, favorite_film)
-VALUES  ('Smith', 'John', 'john.smith@email.com', 'motdepasse1', 'Utilisateur', 'Parle avec elle');
+VALUES  ('Smith', 'John', 'john.smith@email.com', 'motdepasse1', 'Utilisateur', 'Parle avec elle'),
+        ('Johnson', 'Sarah', 'sarah.johnson@email.com', 'motdepasse2', 'Utilisateur', 'Pulp Fiction'),
+        ('Davis', 'Michael', 'michael.davis@email.com', 'motdepasse3', 'Utilisateur', 'Impitoyable'),
+        ('Brown', 'Lisa', 'lisa.brown@email.com', 'motdepasse4', 'Utilisateur', 'Parle avec elle'),
+        ('Garcia', 'David', 'david.garcia@email.com', 'motdepasse5', 'Utilisateur', 'Pulp Fiction'),
+        ('Martinez', 'Maria', 'maria.martinez@email.com', 'motdepasse6', 'Utilisateur', 'Impitoyable'),
+        ('Miller', 'James', 'james.miller@email.com', 'motdepasse7', 'Utilisateur', 'Parle avec elle'),
+        ('Taylor', 'Emily', 'emily.taylor@email.com', 'motdepasse8', 'Utilisateur', 'Pulp Fiction'),
+        ('Anderson', 'Robert', 'robert.anderson@email.com', 'motdepasse9', 'Utilisateur', 'Impitoyable'),
+        ('Thomas', 'Jennifer', 'jennifer.thomas@email.com', 'motdepasse10', 'Utilisateur', 'Parle avec elle');
 
 
 INSERT INTO Actors (name_actor, first_name_actor, role, birth_date)
