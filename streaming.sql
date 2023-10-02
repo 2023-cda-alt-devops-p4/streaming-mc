@@ -54,3 +54,15 @@ INSERT INTO Film_maker (name_filmMaker, first_name_filmMaker)
 VALUES ('Almodóvar', 'Pedro'),
        ('Tarantino', 'Quentin'),
        ('Eastwood', 'Clint');
+
+-- Almodóvar
+INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
+VALUES ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling', 'Almodóvar', 112, '2002');
+
+-- Tarantino
+INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
+VALUES ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994');
+
+-- Eastwood
+INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
+VALUES ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992');
