@@ -48,3 +48,9 @@ CREATE TABLE A_regarde (
     FOREIGN KEY (id_film) REFERENCES Film (id_film),
     FOREIGN KEY (id_user) REFERENCES Users (id_user)
 );
+
+
+INSERT INTO Film_maker (name_filmMaker, first_name_filmMaker)
+VALUES ('Almodóvar', 'Pedro'),
+       ('Tarantino', 'Quentin'),
+       ('Eastwood', 'Clint');
