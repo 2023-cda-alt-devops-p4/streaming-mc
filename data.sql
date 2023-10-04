@@ -1,9 +1,12 @@
 
 INSERT INTO Film (title_film, actors_film, film_maker, duration, release_date)
 VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling', 'Almodóvar', 112, '2002-01-01'),
+        ('Tout sur ma mère', 'Cecilia Roth, Marisa Paredes, Penélope Cruz', 'Almodóvar', 101, '1999-04-16'),
+        ('La piel que habito', 'Antonio Banderas, Elena Anaya', 'Almodóvar', 120, '2011-08-17'),
+        ('Volver', 'Penélope Cruz, Carmen Maura', 'Almodóvar', 121, '2006-03-17'),
+        ('Femmes au bord de la crise de nerfs', 'Carmen Maura, Antonio Banderas', 'Almodóvar', 88, '1988-11-11'),
         ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994-01-01'),
         ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992-01-01');
-
 
 INSERT INTO Users (Name_user, FirstName_user, Email_user, Password_user, role_user, favorite_film)
 VALUES  ('Smith', 'John', 'john.smith@email.com', 'motdepasse1', 'Utilisateur', 'Parle avec elle'),
