@@ -1,7 +1,19 @@
 
 INSERT INTO Film (title_film, actors_film, film_maker, duration, release_date)
 VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling', 'Almodóvar', 112, '2002-01-01'),
+        ('Tout sur ma mère', 'Cecilia Roth, Marisa Paredes, Penélope Cruz', 'Almodóvar', 101, '1999-04-16'),
+        ('La piel que habito', 'Antonio Banderas, Elena Anaya', 'Almodóvar', 120, '2011-08-17'),
+        ('Volver', 'Penélope Cruz, Carmen Maura', 'Almodóvar', 121, '2006-03-17'),
+        ('Femmes au bord de la crise de nerfs', 'Carmen Maura, Antonio Banderas', 'Almodóvar', 88, '1988-11-11'),
         ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994-01-01'),
+        ('Kill Bill: Volume 1', 'Uma Thurman, Lucy Liu, Vivica A. Fox', 'Tarantino', 111, '2003-10-10'),
+        ('Kill Bill: Volume 2', 'Uma Thurman, David Carradine, Daryl Hannah', 'Tarantino', 137, '2004-04-16'),
+        ('Django Unchained', 'Jamie Foxx, Christoph Waltz, Leonardo DiCaprio', 'Tarantino', 165, '2012-12-25'),
+        ('Inglourious Basterds', 'Brad Pitt, Christoph Waltz, Mélanie Laurent', 'Tarantino', 153, '2009-08-21'),
+        ('Million Dollar Baby', 'Clint Eastwood, Hilary Swank, Morgan Freeman', 'Eastwood', 132, '2004-12-15'),
+        ('Les Pleins Pouvoirs', 'Clint Eastwood, Gene Hackman, Ed Harris', 'Eastwood', 121, '1997-02-14'),
+        ('Mystic River', 'Sean Penn, Tim Robbins, Kevin Bacon', 'Eastwood', 138, '2003-10-15'),
+        ('Gran Torino', 'Clint Eastwood, Bee Vang, Christopher Carley', 'Eastwood', 116, '2008-12-12'),
         ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992-01-01');
 
 
