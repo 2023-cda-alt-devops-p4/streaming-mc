@@ -8,6 +8,14 @@ VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling'
         ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994-01-01'),
         ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992-01-01');
 
+
+('Kill Bill: Volume 1', 'Uma Thurman, Lucy Liu, Vivica A. Fox', 'Tarantino', 111, '2003-10-10'),
+('Kill Bill: Volume 2', 'Uma Thurman, David Carradine, Daryl Hannah', 'Tarantino', 137, '2004-04-16'),
+('Django Unchained', 'Jamie Foxx, Christoph Waltz, Leonardo DiCaprio', 'Tarantino', 165, '2012-12-25'),
+('Inglourious Basterds', 'Brad Pitt, Christoph Waltz, Mélanie Laurent', 'Tarantino', 153, '2009-08-21'),
+
+
+
 INSERT INTO Users (Name_user, FirstName_user, Email_user, Password_user, role_user, favorite_film)
 VALUES  ('Smith', 'John', 'john.smith@email.com', 'motdepasse1', 'Utilisateur', 'Parle avec elle'),
         ('Johnson', 'Sarah', 'sarah.johnson@email.com', 'motdepasse2', 'Utilisateur', 'Pulp Fiction'),
