@@ -3,6 +3,11 @@
 
 *Design a database, Store data*
 
+## Desciption
+
+## Setup
+
+> docker compose up
 
 ### Database structure
 
@@ -34,4 +39,8 @@ Last name, first name, email, password, role, and a list of favorite films
 ⬜ A file for generating the database    
 ⬜ Query set in the README.md  
 
+## Author
 
+* Melanie Chauvin
+
+## License
