@@ -11,17 +11,8 @@
 
 ### Database structure
 
-_The films_ : 
-A movie includes a title, one or more actors, a director, a duration, and the release year
-
-_The actors_ :
-Last name, first name, role, and date of birth
-
-_The directors_ :
-Last name and first name
-
-_The users_ :
-Last name, first name, email, password, role, and a list of favorite films
+*Incredible MCD*
+![Model conceptuel de données](merise/looping_img.PNG)
 
 
 ### Requests
