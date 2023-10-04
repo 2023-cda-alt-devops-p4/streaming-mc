@@ -14,6 +14,9 @@
 *Incredible MCD*
 ![Model conceptuel de données](merise/looping_img.PNG)
 
+*Incredible MLD*
+![Model logique de données](merise/mldlooping.png)
+
 
 ### Requests
 
