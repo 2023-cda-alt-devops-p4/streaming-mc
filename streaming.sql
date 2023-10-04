@@ -1,59 +1,69 @@
-CREATE TABLE Film (
-    id_film SERIAL PRIMARY KEY,
-    title_film VARCHAR(60),
-    actors_film VARCHAR(50),
-    film_maker VARCHAR(50),
-    duration INT,
-    release_year DATE
+CREATE TABLE Film(
+   id_film INT,
+   title_film VARCHAR(60),
+   actors_film VARCHAR(50),
+   film_maker VARCHAR(50),
+   duration INT,
+   release_date DATE,
+   PRIMARY KEY(id_film)
 );
 
-CREATE TABLE Actors (
-    id_actors SERIAL PRIMARY KEY,
-    name_actor VARCHAR(50),
-    first_name_actor VARCHAR(50),
-    role VARCHAR(50),
-    birth_date DATE
+CREATE TABLE Actor(
+   id_actor INT,
+   name_actor VARCHAR(50),
+   firstName_actor VARCHAR(50),
+   role_actor VARCHAR(50),
+   birthDate DATE,
+   PRIMARY KEY(id_actor)
 );
 
-CREATE TABLE Film_maker (
-    id_film_maker SERIAL PRIMARY KEY,
-    name_film_maker VARCHAR(50),
-    first_name_film_maker VARCHAR(50),
-    id_film INT NOT NULL,
-    FOREIGN KEY (id_film) REFERENCES Film (id_film)
+CREATE TABLE diretor(
+   id_diretor INT,
+   name_diretor VARCHAR(50),
+   firstName_diretor VARCHAR(50),
+   id_film INT NOT NULL,
+   PRIMARY KEY(id_diretor),
+   FOREIGN KEY(id_film) REFERENCES Film(id_film)
 );
 
-CREATE TABLE Users (
-    id_user SERIAL PRIMARY KEY,
-    name_user VARCHAR(50),
-    first_name_user VARCHAR(50),
-    email_user VARCHAR(50),
-    password_user VARCHAR(50),
-    role_user VARCHAR(50),
-    favorite_film VARCHAR(50)
+CREATE TABLE Users(
+   Id_user INT,
+   Name_user VARCHAR(50),
+   FirstName_user VARCHAR(50),
+   Email_user VARCHAR(50),
+   Password_user VARCHAR(50),
+   Role_user VARCHAR(50),
+   Favorite_film VARCHAR(50),
+   PRIMARY KEY(Id_user)
 );
 
-CREATE TABLE Joue_dans (
-    id_film INT,
-    id_actors INT,
-    PRIMARY KEY (id_film, id_actors),
-    FOREIGN KEY (id_film) REFERENCES Film (id_film),
-    FOREIGN KEY (id_actors) REFERENCES Actors (id_actors)
+CREATE TABLE Archive(
+   id_archive INT,
+   Date_archive DATE,
+   Update_archive DATE,
+   odl_value VARCHAR(50),
+   new_value VARCHAR(50),
+   Id_user INT NOT NULL,
+   PRIMARY KEY(id_archive),
+   FOREIGN KEY(Id_user) REFERENCES Users(Id_user)
 );
 
-CREATE TABLE A_regarde (
-    id_film INT,
-    id_user INT,
-    PRIMARY KEY (id_film, id_user),
-    FOREIGN KEY (id_film) REFERENCES Film (id_film),
-    FOREIGN KEY (id_user) REFERENCES Users (id_user)
+CREATE TABLE Joue_dans(
+   id_film INT,
+   id_actor INT,
+   PRIMARY KEY(id_film, id_actor),
+   FOREIGN KEY(id_film) REFERENCES Film(id_film),
+   FOREIGN KEY(id_actor) REFERENCES Actor(id_actor)
 );
 
+CREATE TABLE A_regardé(
+   id_film INT,
+   Id_user INT,
+   PRIMARY KEY(id_film, Id_user),
+   FOREIGN KEY(id_film) REFERENCES Film(id_film),
+   FOREIGN KEY(Id_user) REFERENCES Users(Id_user)
+);
 
-INSERT INTO Film_maker (name_film_maker, first_name_film_maker)
-VALUES ('Almodóvar', 'Pedro'),
-       ('Tarantino', 'Quentin'),
-       ('Eastwood', 'Clint');
 
 -- Almodóvar
 INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
