@@ -50,16 +50,16 @@ CREATE TABLE A_regarde (
 );
 
 
-INSERT INTO Film_maker (name_filmMaker, first_name_filmMaker)
+INSERT INTO Film_maker (name_film_maker, first_name_film_maker)
 VALUES ('Almodóvar', 'Pedro'),
        ('Tarantino', 'Quentin'),
        ('Eastwood', 'Clint');
 
 -- Almodóvar
 INSERT INTO Film (title_film, actors_film, film_maker, duration, release_year)
-VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling', 'Almodóvar', 112, '2002'),
-        ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994'),
-        ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992');
+VALUES  ('Parle avec elle', 'Javier Cámara, Darío Grandinetti, Leonor Watling', 'Almodóvar', 112, '2002-01-01'),
+        ('Pulp Fiction', 'John Travolta, Samuel L. Jackson, Uma Thurman', 'Tarantino', 154, '1994-01-01'),
+        ('Impitoyable', 'Clint Eastwood, Gene Hackman, Morgan Freeman', 'Eastwood', 131, '1992-01-01');
 
 
 -- utilisateur
