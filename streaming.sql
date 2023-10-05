@@ -19,7 +19,7 @@ CREATE TABLE diretor(
    id_diretor SERIAL PRIMARY KEY,
    name_diretor VARCHAR(50),
    firstName_diretor VARCHAR(50),
-   id_film INT NOT NULL
+   id_film INT,
    FOREIGN KEY(id_film) REFERENCES Film(id_film)
 );
 
@@ -39,7 +39,7 @@ CREATE TABLE Archive(
    Update_archive DATE,
    odl_value VARCHAR(50),
    new_value VARCHAR(50),
-   Id_user INT NOT NULL,
+   Id_user INT,
    FOREIGN KEY(Id_user) REFERENCES Users(Id_user)
 );
 
