@@ -14,9 +14,13 @@
 *Incredible MCD*
 ![Model conceptuel de données](merise/looping_img.PNG)
 
+
 *Incredible MLD*
 ![Model logique de données](merise/mldlooping.png)
 
+
+*Incredible MPD*
+![Model physique de données](merise/mpd.png)
 
 ### Requests
 
@@ -26,10 +30,10 @@
 *A GitHub repository containing:*
 
 ⬜ Docker environment  
-⬜ Data dictionary  
+✅ Data dictionary  
 ✅ Conceptual Data Model   
 ⬜ Physical Data Model   
-⬜ Logical Data Model   
+✅ Logical Data Model   
 ⬜ A file for generating the database    
 ⬜ Query set in the README.md  
 

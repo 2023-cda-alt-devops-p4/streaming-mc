@@ -1,5 +1,5 @@
 CREATE TABLE Film(
-   id_film INT,
+   id_film SERIAL INT,
    title_film VARCHAR(60),
    actors_film VARCHAR(50),
    film_maker VARCHAR(50),
@@ -9,7 +9,7 @@ CREATE TABLE Film(
 );
 
 CREATE TABLE Actor(
-   id_actor INT,
+   id_actor SERIAL INT,
    name_actor VARCHAR(50),
    firstName_actor VARCHAR(50),
    role_actor VARCHAR(50),
@@ -18,7 +18,7 @@ CREATE TABLE Actor(
 );
 
 CREATE TABLE diretor(
-   id_diretor INT,
+   id_diretor SERIAL INT,
    name_diretor VARCHAR(50),
    firstName_diretor VARCHAR(50),
    id_film INT NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE diretor(
 );
 
 CREATE TABLE Users(
-   Id_user INT,
+   Id_user SERIAL INT,
    Name_user VARCHAR(50),
    FirstName_user VARCHAR(50),
    Email_user VARCHAR(50),
@@ -38,7 +38,7 @@ CREATE TABLE Users(
 );
 
 CREATE TABLE Archive(
-   id_archive INT,
+   id_archive SERIAL INT,
    Date_archive DATE,
    Update_archive DATE,
    odl_value VARCHAR(50),
