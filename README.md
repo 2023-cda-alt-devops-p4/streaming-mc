@@ -26,7 +26,12 @@
 
 *A minimal set of queries to test your database:*
 
-⬜Retrieve the titles and release dates of movies from the most recent to the oldest.
+✅Retrieve the titles and release dates of movies from the most recent to the oldest.
+
+```sql
+SELECT title_film, release_date FROM film ORDER BY release_Date DESC;
+```
+
 ⬜Get the names, first names, and ages of actors/actresses over 30 years old in ⬜alphabetical order.
 ⬜Retrieve the list of lead actors/actresses for a given movie.
 ⬜Fetch the list of movies for a given actor/actress.
