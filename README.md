@@ -26,10 +26,10 @@
 *A GitHub repository containing:*
 
 ⬜ Docker environment  
-⬜ Data dictionary  
+✅ Data dictionary  
 ✅ Conceptual Data Model   
 ⬜ Physical Data Model   
-⬜ Logical Data Model   
+✅ Logical Data Model   
 ⬜ A file for generating the database    
 ⬜ Query set in the README.md  
 
