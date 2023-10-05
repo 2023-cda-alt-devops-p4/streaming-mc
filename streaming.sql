@@ -63,5 +63,3 @@ CREATE TABLE A_regardé(
    FOREIGN KEY(id_film) REFERENCES Film(id_film),
    FOREIGN KEY(Id_user) REFERENCES Users(Id_user)
 );
-
-
