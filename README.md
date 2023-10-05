@@ -29,12 +29,12 @@
 
 *A GitHub repository containing:*
 
-⬜ Docker environment  
+✅ Docker environment  
 ✅ Data dictionary  
 ✅ Conceptual Data Model   
-⬜ Physical Data Model   
+✅ Physical Data Model   
 ✅ Logical Data Model   
-⬜ A file for generating the database    
+✅ A file for generating the database    
 ⬜ Query set in the README.md  
 
 ## Author
