@@ -71,7 +71,7 @@ SELECT title_film, release_date FROM film ORDER BY release_Date DESC;
 ## Livrables
 
 Un dépôt GitHub contenant :
-- [ ] L'environnement docker
+- [✔️] L'environnement docker
 - [✔️] Le dictionnaire de données
 - [✔️] MCD
 - [✔️] MPD
